@@ -1,0 +1,169 @@
+body{background-color:
+      rgb(17, 16, 16);}
+
+      .sas-p{
+  color: rgb(209, 214, 214);
+font-size: 32px;
+border: 6px solid black;
+padding: 30px 40px;
+background-color: rgb(178, 178, 203);
+color: white;
+border-radius: 20px;
+text-align: center;
+box-shadow: 40px;
+cursor: pointer;
+ }
+
+.ANIME{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:25px;
+    margin:20px;
+    padding: 350PX;
+    margin-top: -300PX;
+}
+.ANIME IMG{
+
+
+    width: 150PX;
+    height: 250PX;
+    object-fit:cover;
+    border-radius: 8PX;
+}
+
+#GONE,
+#KILUA,
+#KURAPIKA,
+#ICHIGO,
+#INOOE,
+#ZARAKI,
+#ARMIN,
+#EREN,
+#MIKASA,
+#ALLMIGHT,
+#BAKUGO,
+#DEKU,
+#FERN,
+#FRIEREN,
+#STARK,
+#GOJO,
+#MAHORAGA,
+#SUKUNA{
+    color: white;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(9, 202, 245);
+}
+a{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(21, 27, 27);
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.mahoraga-grid,
+.gojo-grid,
+.sukuna-grid,
+.frieren-grid,
+.fern-grid,
+.stark-grid,
+.deku-grid,
+.bakugo-grid,
+.allmight-grid,
+.ICHIGO-GRID,
+.INOE-GRID,
+.ZARAKI-GRID,
+.GONE-GRID,
+.KILUA-GRID,
+.KURAPIKA-GRID,
+.EREN-GRID,
+.ARMIN-GRID,
+.MIKASA-GRID{
+    display: grid;
+    grid-template-columns: repeat(3,320px);
+    gap: 10px; 
+    justify-content: center;
+}
+
+.sukuna-grid img,
+.mahoraga-grid img,
+.gojo-grid img,
+.frieren-grid img,
+.stark-grid img,
+.fern-grid img,
+.deku-grid img,
+.bakugo-grid img,
+.allmight-grid img,
+.ICHIGO-GRID IMG,
+.INOE-GRID IMG,
+.ZARAKI-GRID IMG,
+.GONE-GRID IMG,
+.KILUA-GRID IMG,
+.KURAPIKA-GRID IMG,
+.EREN-GRID IMG,
+.MIKASA-GRID IMG,
+.ARMIN-GRID IMG{
+    width: 100%;
+    height:550px;
+    object-fit: fill;
+    border-radius: 10px;
+    border-style: solid;
+
+}
+.jujutsu-style:hover,
+.frieren-style:hover,
+.academia-style:hover,
+.BLEACH-STYLE:HOVER,
+.HUNTER-STYLE:HOVER,
+.TITAN-STYLE:HOVER{
+
+text-decoration: underline;
+
+}
+
+.jujutsu-style,
+.frieren-style,
+.academia-style,
+.BLEACH-STYLE,
+.HUNTER-STYLE,
+.TITAN-STYLE{
+
+    background-color: bisque ;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+
+.jujutsu-content,
+.frieren-content,
+.academia-content,
+.BLEACH-CONTENT,
+.HUNTER-CONTENT,
+.TITAN-CONTENT{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+details:not([open]) .jujutsu-content{
+    display: none;
+}
+
+summary{
+    cursor: pointer;
+    color: rgb(8, 1, 14);
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50PX;
+    padding-left: -10PX;
+}
